@@ -19,8 +19,14 @@ while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
+    key = pygame.key.get_pressed()
+    if key[pygame.K_UP]:
+        pass
+    if key[pygame.K_DOWN]:
+        pass
     scr.blit(fon,(0,0))
     scr.blit(player.img_new,(player.imgrect.x,player.imgrect.y))
     pygame.display.update()
 
-#1
+
+
