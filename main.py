@@ -23,3 +23,4 @@ while run:
     scr.blit(player.img_new,(player.imgrect.x,player.imgrect.y))
     pygame.display.update()
 
+#1
