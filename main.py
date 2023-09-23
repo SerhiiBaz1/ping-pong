@@ -39,6 +39,7 @@ def moove():
         dx =-1
     if ball.imgrect.right >W:
         ball.imgrect.x, ball.imgrect.y = 330,219
+        dx = -1
     if ball.imgrect.top < 0:
         dy = +1
     if ball.imgrect.left <=0:
