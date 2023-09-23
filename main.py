@@ -43,6 +43,7 @@ def moove():
         dy = +1
     if ball.imgrect.left <=0:
         ball.imgrect.x, ball.imgrect.y = 330,219
+        dx =1
 
 def plateq():
     global pm
